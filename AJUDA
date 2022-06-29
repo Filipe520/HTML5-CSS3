@@ -1,0 +1,153 @@
+            -------------------------  TAG :ROOT(NOSSO CORINGA)  ---------------------
+
+- Olha śo no começo do nosso documento css nos colocava *{} é tudo que tá dentro vai ser aplicar no site todo né
+a mesma forma vai ser no comando :root{} tudo que tiver dentro vai ser aplica no site todo, tipo agente tem como
+pegar varias cores é colocar lá dentro dentro de variáveis cada variável vai ter o seu nome é quando for usar aquela
+determinada cor sor basta colocar o nome dela que vai aparecer.
+
+exemplo:
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif; 
+}
+
+- CARA esse coringa é muito foda!!, tipo, ser pelo acaso o nosso cliente manda mudar uma cor do nosso site agente ia ter 
+que achar a tag que tá aquela determinada cor é mudar a cor por lá né, agora sor basta agente ir em :root é mudar a cor que já vai mudar no site todo!!!
+
+body {
+    color: var(--cor1);
+}
+
+
+           -------------------------       IMAGENS DINÂMICAS  ---------------------
+
+- Quando agente vai trabalhar com imagens para celular agente usar o tamanho das imagens 300x300.
+
+- Agora ser agente vai trabalhar com imagens para tablets agente usar o tamanho das imagens 700x700.
+
+- Ser agente for trabalhar com imagens para tv, notebook ou telas grandes, agente vai usar o tamanho das imagens 1000x1000.
+
+Exemplo:
+
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/irina-blok_P.jpg" type="image/jpg">
+                    <source media="(max-width: 1050px)" srcset="imagens/irina-blok_M.jpg" type="image/jpg">
+                    <img src="imagens/irina-blok.jpg" alt="Foto da Ilustradora Russa Irina Blok">
+                </picture>
+
+
+
+            -------------------------       FONTES PERSONALIZADAS - baixadas  ---------------------
+
+- Olhar só, agente tem que colocar esse comando lá em cima do nosso documento css junto com @ de importação.
+
+Exemplo:
+
+                        ------        COMANDO @font-face     --------
+
+                        @font-face {
+
+                        font-family: 'love';    --- pode coloca qualquer nome dentro do font-family -----
+
+                        src: url('love larry.otf') format           ----- Esse vai ser o nome do arquivo da fonte é o formato da fonte ----
+                        ('opentype'), url('love larry.ttf')         ----- Vale lembrar que agente não pode esquecer de colocar o
+                                                                                     formato ou não vai funcionar.  --------
+
+                        format('truetype');
+                        font-weight: normal;                        ------ Essa vai ser o peso da fonte vai definir uma largura que ele vai ter ------
+                        font-style: normal;                         ------ Essa aqui vai definir ser vai querer algum estilo tipo itálico.
+                        }                                                         mas não é o caso o tipo do estilo dele tá normal ------
+
+Tipos de format()     
+
+            -------------------------       Fontes  ---------------------
+
+Bebas Neue - google fontes - ela deixar os textos bem mais junto.
+
+Work Sans - google fontes - deixar os textos bem mais elegantes ela também e mais fininha que as outras fontes padrão.
+
+android - dafont - fonte com formato android.     
+
+
+ -------- Nessa aula agente usou dois tipos de formatos que foi o ( opentype ) é o outro foi o ( truetype ).--------------
+
+-opentype (otf)
+-truetype (ttf)
+-embedded-opentype
+-truetype-aat (Apple Advanced Typography)
+-svg
+
+            -------------------------       Tag video  ---------------------
+
+- Olhar só, aquele video que agente baixou é tá no nosso computador vai tá só o video ai ser agente quise colocar uma capa no video antes dele da play
+agente tem que colocar um parámetro poster.
+
+Exemplo:
+
+                <video poster="imagens/dan-droids-pq.png" src="video/The next evolution of Android.mp4"></video>
+
+            -------------------------       Tag Marker  ---------------------
+
+- Essa tag é muito símples mas me deu uma baita dó de cabeça!!.
+
+- Então a tag marker ela serve para marca um textoooo com um cor expecíficar tipo agente faz um texto é no meio agente tem que marca um nome agente vai usar essa tag para marca,
+ou então é impossivel marca só frase sor aquela determinada aréa do texto.
+
+Exemplo:
+                 PARTE HTML                                
+
+        <p class="ultimo-paragrafo">
+            Então é isso! Espero que você tenha gostado do nosso
+            artigo com essa curiosidade sobre o sistema 
+            <marker>Android</marker> e seu simpático mascote.
+        </p>
+
+                PARTE CSS
+
+        marker {
+        color: red;
+        }
+
+            -------------------------       dicas de tag  ---------------------
+
+- A tag header vai ficar o titúlo e o subtitúlo do site.
+
+- É os botão de menu vai ficar dentro da tag nav de baixo do header é não dentro do header.
+
+- todas as tags vai ficar dentro da tag main exeto o header e o footer.
+
+- A tag article vai ficar o conteúdo todo do site.
+
+- A tag aside ele é usanda quando tem conteudo extra dentro de um site.
+
+            ------------------------- tag Gradientes ---------------------
+- Esse gradiente começa com uma cor 100% ai vai ficar tranparente no final.
+
+exemplo:
+
+        background-image: linear-gradient(to right, var(--cor1), transparent );
+
+            ------------------------- tag ul  ---------------------
+
+- Para agente trocar os pontos de cada li dentro do ul agente tem que usar o list-style-type ele vai substituir ele pelo um emoji que ficar bem mas melhor.
+
+- É depos ser os meus li tiver com esses pontos para fora da minha caixa do site agente tem que usar o list-style-position: inside.
+
+- Olhar sor, agente tá com uma ul com os li, para agente fazer com que esses li em duas colunas ou mas agente tem que usar o columns dentro do ul.
+
+exemplo:
+
+aside ul {
+    list-style-type: '\2714\00A0\00A0';             ----- Esse código 2714 é o emoji é o 00A0 vai ser o espaçamento dentro da lista.
+    list-style-position: inside;
+    columns: 2
+}
+
+
