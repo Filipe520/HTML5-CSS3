@@ -150,4 +150,17 @@ aside ul {
     columns: 2
 }
 
+            ------------------------- posicionamento da imagem  ---------------------
+
+100vh -- O vh é viu porte do site é práticamente do começo do site até o final.
+
+backgound-position: left top --- o ponto de ancoragem vai começa da direita para cima.
+
+exemplo: 
+
+        div#q1 {
+            background-position: left top;
+        }
+
+
 
