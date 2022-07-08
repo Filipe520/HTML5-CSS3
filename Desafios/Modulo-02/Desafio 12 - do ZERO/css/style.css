@@ -1,0 +1,67 @@
+@charset "UTF-8"; /* caso haja erro de acentuação */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: rgb(99, 98, 98);
+}
+
+header {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header a:hover, footer a:hover {
+    color: rgb(158, 53, 53);
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 20px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(51, 51, 51, 0.055);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    padding: 5px;
+}

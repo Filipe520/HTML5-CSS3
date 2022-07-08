@@ -1,0 +1,141 @@
+@charset "UTF-8"; /* caso haja erro de acentuação */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 200px;
+
+    background-color: black;
+    color: white;
+
+    position: relative;
+}
+
+header div {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    font-family: A;
+
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header a:hover {
+    color: rgb(160, 0, 0);
+    text-decoration: underline;
+}
+
+article p {
+    padding: 17px 0px;
+}
+
+main #fundo-01{
+    height: 120vh;
+
+    display: flex;
+
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main #fundo-02 {
+    height: 120vh;
+
+    display: flex;
+
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main #primeiro-paragrafo {
+    padding: 40px 0px;
+    height: 80vh;
+    font-size: 1.2em;
+}
+
+main #sem-fundo {
+    height: 130vh;
+    background-color: white;
+}
+
+main #bloco-normal {
+    width: 400px;
+    padding: 0px 20px;
+
+    font-size: 2em;
+
+    line-height: 1.8em;
+
+    color: black;
+
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+main #bloco-especial {
+    width: 400px;
+
+    margin: auto 0px;
+    padding: 20px 20px;
+
+    font-size: 2.2em;
+
+    line-height: 1.8em;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.336);
+
+    border-radius: 0px 0px 20px 0px;
+}
+
+main footer {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    font-size: 1.2em
+}
+
+main footer a {
+    color: white;
+    text-decoration: none;
+}
+
+main footer  strong:hover {
+    text-shadow: 6px 5px 10px rgb(255, 0, 0);
+}
+
+main footer .curso:hover {
+    text-shadow: 6px 5px 10px rgb(0, 0, 255);
+}
+
+
+main footer a:hover {
+    text-decoration: underline;
+}
