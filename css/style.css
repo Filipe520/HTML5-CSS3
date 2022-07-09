@@ -66,9 +66,15 @@ article {
 
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
     
-    
-    background-image: linear-gradient(rgb(3, 82, 71), white);
-    background-repeat: no-repeat;
+    background-image: url(../images/ingrenagem.jpeg);
+
+    background-position: center center;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    color: white;
 }
 
 .bloco {
@@ -84,10 +90,13 @@ article h2 {
     margin-top: 24px;
 
     border-left: 4px solid rgb(190, 0, 0);
+
+    color: black;
 }
 
 article h3 {
     margin: 20px 0px;
+    color: black;
 }
 
 article #lista01 {
@@ -115,22 +124,39 @@ article a:hover {
 }
 
 footer {
-    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(7, 139, 122), rgb(255, 255, 255));
-    color: rgb(255, 255, 255);
+    padding: 10px 0px;
+
+    background-image: linear-gradient(to left, rgb(255, 255, 255),  rgba(166, 219, 215, 0.315), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
 
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 footer a {
-    color: rgb(1, 255, 1);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
     text-decoration: none;
 }
 
 footer a:hover {
-    text-shadow: .5px .5px 1px rgb(0, 90, 0);
+    text-shadow: .5px .5px 1px rgb(97, 252, 76);
 }
 
 main #lista02 li{
     padding: 5px;
+}
+
+#desafio h1 {
+    margin: 24px 0px;
+
+    border-left: 4px solid rgb(190, 0, 0);
+
+    color: black;
+
+    font-size: 2em;
+}
+
+#desafio ul {
+    color: black;
 }
