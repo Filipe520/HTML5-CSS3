@@ -7,18 +7,25 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: radial-gradient(rgba(0, 0, 255, 0.432), black);
+    background-size: 100vw;
+}
+
 main {
-    height: 1200px;
+    height: 1350px;
 
     min-width: 300px;
     max-width: 900px;
 
     margin: 0px auto;
+
 }
 
 header {
     background-color: rgb(11, 25, 29);
     border-radius: 0px 0px 10px 10px;
+    color: 
 }
 
 header h1 {
@@ -57,8 +64,8 @@ header a:hover{
 article {
     height: 340px;
 
-    margin-bottom: 24px;
-    padding-top: 30px;
+    margin: 24px 10px;
+    padding-top: 1em;
     padding-right: 10px;
 
     border-radius: 10px;
@@ -78,10 +85,11 @@ article {
 }
 
 .bloco {
-    height: 300px;
+    height: 310px;
     
-    padding: 5px 5%;
+    padding: 5px 3%;
     
+    border-radius: 0px 20px 20px 0px;
     
     background-color: white;
 }
@@ -92,9 +100,13 @@ article h2 {
     border-left: 4px solid rgb(190, 0, 0);
 
     color: black;
+
+    font-size: 2em;
 }
 
 article h3 {
+
+    font-size: 1.5em;
     margin: 20px 0px;
     color: black;
 }
@@ -126,21 +138,25 @@ article a:hover {
 footer {
     padding: 10px 0px;
 
-    background-image: linear-gradient(to left, rgb(255, 255, 255),  rgba(166, 219, 215, 0.315), rgb(255, 255, 255));
-    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to left, black,  rgba(255, 255, 255, 0.425), black);
+    color: white;
 
     text-align: center;
     font-size: 1.3em;
+
+    font-weight: bold;
 }
 
 footer a {
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-    color: rgb(7, 7, 7);
+    color: white;
     text-decoration: none;
+
+    transition: .2s;
 }
 
 footer a:hover {
-    text-shadow: .5px .5px 1px rgb(97, 252, 76);
+    text-shadow: .5px .5px .5px rgb(97, 252, 76);
+    color: rgba(0, 0, 0, 0.74);
 }
 
 main #lista02 li{

@@ -21,27 +21,31 @@
 html body {
     min-height: 100vh;
     background-color: rgb(99, 98, 98);
-
+    
     font-family: var(--fonte-Normal);
 }
 
-header {
+header h1 {
+    padding: 20px 0px;
+    font-family: var(--fonte-01);
+    font-size: 5.5vw;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header p {
+    padding-bottom: 50px
+}
+
+header p {
     background-color: black;
     color: white;
 
     text-align: center;
 
-    font-size: 3.2vw;
-}
-
-header h1 {
-    padding-top: 20px;
-    font-family: var(--fonte-01);
-    font-size: 3.5em;
-}
-
-header p {
-    padding-bottom: 50px
+    font-size: 1.4em;
 }
 
 header a, footer a {
@@ -51,14 +55,30 @@ header a, footer a {
 }
 
 header a:hover, footer a:hover {
-    color: rgb(228, 120, 120);
+    color: rgb(120, 221, 228);
     text-decoration: underline;
 }
+
+
+header > nav {
+    background-color: black;
+}
+
+header nav > a {
+    font-weight: bolder;
+    font-size: 1.5em;
+    
+    padding-left: 1em;
+
+    text-shadow: 1px .1px  5px rgba(0, 132, 255, 0.979);
+    color: white;
+}
+
 
 section {
     line-height: 2em;
 
-    font-size: 3.5vw;
+    font-size: 4.2vw;
 
     padding-top: 20vh;
     padding-bottom: 20vh;
