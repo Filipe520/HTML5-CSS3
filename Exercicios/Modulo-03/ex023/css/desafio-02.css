@@ -1,0 +1,19 @@
+
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+table {
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+
+table td {
+    border: 1px solid black;
+    background-color: azure;
+    padding: 10px 20px;
+    text-align: center;
+}

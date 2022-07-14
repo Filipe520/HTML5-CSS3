@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+table {
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: rgb(172, 165, 138);
+}
+
+table td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 30px;
+    text-align: center;
+}

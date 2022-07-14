@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 0px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 5px 20px;
+    font-size: 1.1em;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 5px 5px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+table .mulh {
+    background-color: rgba(255, 20, 145, 0.137);
+}
+
+table .hom {
+    background-color: rgba(0, 204, 255, 0.13);
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.3em;
+    text-shadow: 0px 1px 1px rgb(0, 225, 255);
+}
