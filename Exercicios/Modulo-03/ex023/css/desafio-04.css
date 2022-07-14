@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    padding: 10px 0px;
+
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(0, 238, 255);
+
+    font-size: 2em;
+}
+
+table {
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+table caption {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+table th {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
+
+table td {
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+
+table .destaque {
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+}
+
+table .media-destaque {
+    background-color: rgb(143, 143, 143);
+    color: white;
+    text-align: left;
+}
+
+tfoot {
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
