@@ -1,0 +1,15 @@
+                            -------- Largura do iframe -----------
+
+
+- Todo iframe por padrão tem um tamanho de 300x150 (300 de altura é 150 de largura) 
+
+
+                            -------- Scolling no iframe -----------
+
+- O parâmetro scolling="auto" vai ter uma rolagem lateral automatico no iframe por padrão.
+
+- O scolling="yes" Mesmo ser o iframe não tiver rolagem lateral com esse YES ele vai dar uma rolagem lateral.
+
+- É com scolling="no" ser o iframe tiver rolagem lateral, com esse NO o iframe não vai ter mas rolagem lateral.
+
+                            -------- Largura do iframe -----------
